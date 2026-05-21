@@ -3,12 +3,12 @@ cask "superisland" do
 
   on_arm do
     sha256 "REPLACE_WITH_ARM64_DMG_SHA256"
-    url "https://github.com/shobhit99/superisland/releases/download/v#{version}/SuperIsland.dmg"
+    url "https://github.com/shobhit99/SuperIsland/releases/download/#{version}/SuperIsland.dmg"
   end
 
   on_intel do
     sha256 "REPLACE_WITH_X86_64_DMG_SHA256"
-    url "https://github.com/shobhit99/superisland/releases/download/v#{version}/SuperIsland-x86_64.dmg"
+    url "https://github.com/shobhit99/superisland/releases/download/#{version}/SuperIsland-x86_64.dmg"
   end
 
   name "SuperIsland"
