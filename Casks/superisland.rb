@@ -1,13 +1,13 @@
 cask "superisland" do
-  version "1.0.8"
+  version "1.0.9"
   
   on_arm do
-    sha256 "eb26abd006d463b853927bffb0c32f9d2b9f945092af0beed5a1dc27ba682a50"
+    sha256 "b7f94fdb0842da105a5d60c058e1b65a275dda7fbcfb594f61b278804d1e78bd"
     url "https://github.com/shobhit99/SuperIsland/releases/download/#{version}/SuperIsland.dmg"
   end
 
   on_intel do
-    sha256 "f47339e68ff815e53240ea5163388ebecbc9b0722c7be7f33c49853376d7d5ba"
+    sha256 "da5cecb1b86af2aa386a9fa8d0e6a4ee3df45ac787145de91052757ed44f60d7"
     url "https://github.com/shobhit99/superisland/releases/download/#{version}/SuperIsland-x86_64.dmg"
   end
 
