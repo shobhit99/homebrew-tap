@@ -13,6 +13,7 @@ The tap is auto-resolved by Homebrew (`shobhit99/tap` → `github.com/shobhit99/
 ## Casks
 
 - [`superisland`](Casks/superisland.rb) — interactive island for the Mac notch. Per-arch DMGs via `on_arm` / `on_intel`.
+- [`holdmylid`](Casks/holdmylid.rb) — keeps your Mac awake for coding agents, even with the lid closed. Single universal DMG.
 
 ## Publishing this tap
 
