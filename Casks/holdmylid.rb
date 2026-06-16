@@ -7,7 +7,7 @@ cask "holdmylid" do
   desc "Keeps coding agents running with the laptop lid closed"
   homepage "https://holdmylid.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "HoldMyLid.app"
 
@@ -15,6 +15,7 @@ cask "holdmylid" do
     "~/.config/holdmylid",
     "~/.holdmylid",
     "~/Library/Caches/com.holdmylid.app",
+    "~/Library/HTTPStorages/com.holdmylid.app",
     "~/Library/Preferences/com.holdmylid.app.plist",
   ]
 end
