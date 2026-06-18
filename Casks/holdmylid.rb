@@ -1,6 +1,6 @@
 cask "holdmylid" do
-  version "1.0.1"
-  sha256 "b8aa7900d14cb588cb6569ad899227e55b640315c0120bdb8472c7941ffac01b"
+  version "1.0.2"
+  sha256 "953593529a6b4be8e2e76ec661de4e88caf1314d0ac4df4153026371ea8638b0"
 
   url "https://github.com/shobhit99/holdmylid-releases/releases/download/#{version}/HoldMyLid.dmg"
   name "Hold My Lid"
