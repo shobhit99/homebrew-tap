@@ -1,13 +1,13 @@
 cask "supercmd" do
-  version "1.0.1"
-  sha256 "4877ef9aec9a638d8fd11d839dd1da3e5ba0b12e28d4ff4d2fe06eb733bcedc2"
+  version "1.0.2"
+  sha256 "5ea350fbd9a71ac7e29cdfd0bf0e49f92e4e9eb2f2f92f7bddf0d6d6e9bb8df5"
 
   url "https://github.com/SuperCmdLabs/SuperCmd-v2-releases/releases/download/#{version}/SuperCmd.dmg"
   name "SuperCmd"
   desc "Raycast-style command launcher"
   homepage "https://supercmd.sh/"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "SuperCmd.app"
 
