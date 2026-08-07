@@ -1,6 +1,11 @@
 cask "supercmd" do
-  version "1.0.3"
-  sha256 "9fadd2e7a800e910cad45c8fa3b785b98f8e9b06491a1e4f198689177863def4"
+  version "1.0.4"
+  # TODO: replace before merging. Produce with, against the notarized DMG
+  # attached to the 1.0.4 GitHub release:
+  #   shasum -a 256 SuperCmd.dmg
+  # This placeholder is intentionally not a valid hash so `brew audit` and
+  # any install attempt fail loudly rather than silently fetching nothing.
+  sha256 "REPLACE_WITH_SHA256_OF_NOTARIZED_1_0_4_DMG"
 
   url "https://github.com/SuperCmdLabs/SuperCmd-v2-releases/releases/download/#{version}/SuperCmd.dmg"
   name "SuperCmd"
