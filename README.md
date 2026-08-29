@@ -14,6 +14,7 @@ The tap is auto-resolved by Homebrew (`shobhit99/tap` → `github.com/shobhit99/
 
 - [`superisland`](Casks/superisland.rb) — interactive island for the Mac notch. Per-arch DMGs via `on_arm` / `on_intel`.
 - [`holdmylid`](Casks/holdmylid.rb) — keeps your Mac awake for coding agents, even with the lid closed. Single universal DMG.
+- [`holdmynotes`](Casks/holdmynotes.rb) — sticky notes docked to the edge of your screen. Single universal DMG, self-updating via Sparkle.
 
 ## Publishing this tap
 
