@@ -1,6 +1,6 @@
 cask "holdmynotes" do
-  version "1.0.4"
-  sha256 "8544c42d0a7a7af24c08581ae2115cbcfa754af926701fd685cdf320970f994c"
+  version "1.0.5"
+  sha256 "95c05946dd6f9369c44f3096190503e0917d22a86dca4c48b9d906651951253a"
 
   url "https://github.com/shobhit99/holdmynotes-releases/releases/download/v#{version}/HoldMyNotes-#{version}.dmg"
   name "Hold My Notes"
