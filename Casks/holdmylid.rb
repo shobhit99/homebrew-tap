@@ -7,7 +7,7 @@ cask "holdmylid" do
   desc "Keeps coding agents running with the laptop lid closed"
   homepage "https://holdmylid.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "HoldMyLid.app"
 
