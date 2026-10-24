@@ -20,8 +20,12 @@ cask "superisland" do
   app "SuperIsland.app"
 
   zap trash: [
+    "~/Library/Application Support/CrashReporter/SuperIsland_*.plist",
     "~/Library/Application Support/SuperIsland",
     "~/Library/Caches/com.workview.SuperIsland",
+    "~/Library/HTTPStorages/com.workview.SuperIsland",
+    "~/Library/HTTPStorages/com.workview.SuperIsland.binarycookies",
+    "~/Library/Logs/DiagnosticReports/SuperIsland-*.ips",
     "~/Library/Preferences/com.workview.SuperIsland.plist",
   ]
 end
