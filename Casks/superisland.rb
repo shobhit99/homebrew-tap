@@ -15,7 +15,7 @@ cask "superisland" do
   desc "Interactive island for the Mac notch"
   homepage "https://dynamicisland.app/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "SuperIsland.app"
 
